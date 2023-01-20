@@ -2,12 +2,57 @@
     display: none;
 }
 
+header {
+    background-image: linear-gradient(#f26721, #fff);
+}
+
+ul {
+    list-style-type: none;
+}
+
 p {
     font-size: 20px;
-    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+img {
+    height: 100px;
+}
+
+.bumper {
+    position: absolute;
+    height: 6px;
+    width: 100px;
+    background-color: #f26721;
+}
+
+.divider {
+    border-right: 3px solid #333;
     padding-right: 20px;
 }
 
 #row1, #row2, #row3, #row4 {
     display: inline-flex;
 }
+
+#mudkip:hover {
+    content: url(../images/shiny_mudkip.svg);
+}
+
+#ralts:hover {
+    content: url(../images/shiny_ralts.svg);
+}
+
+#jirachi:hover {
+    content: url(../images/shiny_jirachi.svg);
+}
+
+#skitty:hover {
+    content: url(../images/shiny_skitty.svg);
+}
+
+#pokemon li:hover .bumper,#items li:hover .bumper {
+    height: 50px;
+    transition: all 1s ease;
+} 
