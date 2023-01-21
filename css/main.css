@@ -5,10 +5,14 @@ body {
 
 header {
     background-image: linear-gradient(#f26721, #fff);
+    border: 1px black solid;
+    border-radius: 10px;
 }
 
 footer {
     background-image: linear-gradient(#fff, #f26721) ;
+    border: 1px black solid;
+    border-radius: 10px;
 }
 
 a {
@@ -95,24 +99,12 @@ h2 {
 
 #container {
     width: 1200px;
-    margin: 0 auto;
-    display: sticky;
+    margin: 0px auto;
+    background-image: linear-gradient(#5ADEEF 30%, green);
 }
 
-#mudkip:hover {
-    content: url(../images/shiny_mudkip.svg);
-}
-
-#ralts:hover {
-    content: url(../images/shiny_ralts.svg);
-}
-
-#jirachi:hover {
-    content: url(../images/shiny_jirachi.svg);
-}
-
-#skitty:hover {
-    content: url(../images/shiny_skitty.svg);
+#pokemon {
+    margin-top: 70px;
 }
 
 #pokemon li:hover .bumper,#items li:hover .bumper {
@@ -139,16 +131,23 @@ h2 {
     border-radius: 5px;
 }
 
-#Mudkip:hover #lightblue_mudkip {
-    fill: #fff6cd;
+#main_nav {
+    position: fixed;
+    background-image: linear-gradient(red, white);
+    z-index: 1;
 }
 
-#Mudkip:hover #darkblue_mudkip {
-    fill: #b187bd;
+#bottom_nav {
+    display: grid;
 }
 
-#Mudkip:hover #blue_mudkip {
-    fill: #dbaed1
+#bottom_nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+#items h2 {
+    margin-top: 35px;
 }
 
 #mudkip_info, #pokeball_info, #masterball_info {
@@ -167,18 +166,65 @@ h2 {
     grid-column: 4/-1;
 }
 
-#bottom_nav {
-    display: grid;
+#Mudkip:hover #lightblue_mudkip {
+    fill: #fff6cd;
 }
 
-#bottom_nav li {
-    display: inline-block;
-    text-align: center;
+#Mudkip:hover #darkblue_mudkip {
+    fill: #b187bd;
 }
 
-#items h2 {
-    margin-top: 35px;
+#Mudkip:hover #blue_mudkip {
+    fill: #dbaed1
 }
+
+#Ralts:hover #red_ralts {
+    fill: #d69939
+}
+
+#Ralts:hover #darkgreen_ralts {
+    fill: #54a3d1;
+}
+
+#Ralts:hover #lightgreen_ralts {
+    fill: #7bccf2;
+}
+
+#Ralts:hover #white_ralts {
+    fill: #f0dceb;
+}
+
+#Jirachi:hover #grey_jirachi {
+    fill: #efd8d0;
+  }
+
+#Jirachi:hover #gold_jirachi {
+    fill: #d6c575;
+  }
+
+#Jirachi:hover #yellow_jirachi {
+    fill: #eede8b;
+  }
+
+#Jirachi:hover #blue_jirachi {
+    fill: #f36d4c;
+  }
+
+#Skitty:hover #yellow_skitty {
+    fill: #fff3a8;
+  }
+
+#Skitty:hover #blue_skitty {
+    fill: #9064a0;
+  }
+
+#Skitty:hover #pink_skitty {
+    fill: #d68663;
+  }
+
+#Skitty:hover #lightpink_skitty {
+    fill: #f9a67e;
+  }
 
 #Pokeball:hover #lightred_poke, #Pokeball:hover #red_poke, #Pokeball:hover #darkred_poke {filter: invert(1);}
 
