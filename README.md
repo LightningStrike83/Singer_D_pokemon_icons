@@ -18,6 +18,7 @@ TODO: Write usage instructions
 
 01/15/22- Created the initial setup  
 01/19/22- Added svg assets to html, styled the HTML  
+01/20/22- Styled the HTML more, optimized svgs
 
 ## Credits  
 
