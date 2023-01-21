@@ -1,9 +1,28 @@
-.hidden {
-    display: none;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 header {
     background-image: linear-gradient(#f26721, #fff);
+}
+
+footer {
+    background-image: linear-gradient(#fff, #f26721) ;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #333;
 }
 
 ul {
@@ -11,19 +30,37 @@ ul {
 }
 
 p {
-    font-size: 20px;
-    padding-right: 20px;
+    font-size: 18px;
     position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-img {
+img, svg {
     height: 100px;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-template-columns: repeat(4, 220px);
+    column-gap: 100px;
 }
 
 .bumper {
     position: absolute;
     height: 6px;
-    width: 100px;
+    width: 220px;
     background-color: #f26721;
 }
 
@@ -32,8 +69,26 @@ img {
     padding-right: 20px;
 }
 
+#main_nav, #footer_nav {
+    display: grid;
+}
+
+#main_nav, #footer_nav ul {
+    grid-column: 1/2;
+}
+
+#main_nav, #footer_nav li {
+    text-align: center;
+}
+
 #row1, #row2, #row3, #row4 {
-    display: inline-flex;
+    display: grid;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px black solid;
 }
 
 #mudkip:hover {
@@ -56,3 +111,59 @@ img {
     height: 50px;
     transition: all 1s ease;
 } 
+
+#pokemon li {
+    position: relative;
+    height: 270px;
+    width: 220px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#items li {
+    height: 350px;
+    width: 220px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#Mudkip:hover #lightblue_mudkip {
+    fill: #fff6cd;
+}
+
+#Mudkip:hover #darkblue_mudkip {
+    fill: #b187bd;
+}
+
+#Mudkip:hover #blue_mudkip {
+    fill: #dbaed1
+}
+
+#mudkip_info, #pokeball_info, #masterball_info {
+    grid-column: 1/2;
+}
+
+#ralts_info, #greatball_info, #duskball_info, #friendball_info {
+    grid-column: 2/3;
+}
+
+#jirachi_info, #ultraball_info, #quickball_info, #dreamball_info {
+    grid-column: 3/4;
+}
+
+#skitty_info, #diveball_info, #premierball_info {
+    grid-column: 4/-1;
+}
+
+#bottom_nav {
+    display: grid;
+}
+
+#bottom_nav li {
+    display: inline-block;
+    text-align: center;
+}
