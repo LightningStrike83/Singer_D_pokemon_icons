@@ -1,19 +1,19 @@
 console.log('Javascript is online')
 
-const Mudkip = document.querySelector ('#mudkip');
-const Ralts = document.querySelector ('#ralts');
-const Jirachi = document.querySelector ('#jirachi');
-const Skitty = document.querySelector ('#skitty');
-const Pokeball = document.querySelector ('#pokeball');
-const Greatball = document.querySelector ('#greatball');
-const Ultraball = document.querySelector ('#ultraball');
-const Premierball = document.querySelector ('#premierball');
-const Masterball = document.querySelector ('#masterball');
-const Duskball = document.querySelector ('#duskball');
-const Quickball = document.querySelector ('#quickball');
-const Diveball = document.querySelector ('#diveball');
-const Friendball = document.querySelector ('#friendball');
-const Dreamball = document.querySelector ('#dreamball');
+const Mudkip = document.querySelector ('#Mudkip');
+const Ralts = document.querySelector ('#Ralts');
+const Jirachi = document.querySelector ('#Jirachi');
+const Skitty = document.querySelector ('#Skitty');
+const Pokeball = document.querySelector ('#Pokeball');
+const Greatball = document.querySelector ('#Great_Ball');
+const Ultraball = document.querySelector ('#Ultra_Ball');
+const Premierball = document.querySelector ('#Premier_Ball');
+const Masterball = document.querySelector ('#Master_Ball');
+const Duskball = document.querySelector ('#Dusk_Ball');
+const Quickball = document.querySelector ('#Quick_Ball');
+const Diveball = document.querySelector ('#Dive_Ball');
+const Friendball = document.querySelector ('#Friend_Ball');
+const Dreamball = document.querySelector ('#Dream_Ball');
 
 function logID(){
     console.log('pokemon:',this.id)
