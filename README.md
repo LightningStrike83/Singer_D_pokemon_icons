@@ -19,6 +19,7 @@ TODO: Write usage instructions
 01/15/22- Created the initial setup  
 01/19/22- Added svg assets to html, styled the HTML  
 01/20/22- Styled the HTML more, optimized svgs
+01/21/22- Finished the styling
 
 ## Credits  
 
@@ -26,6 +27,8 @@ Singer, Dan- Author
 
 Reference of sprites from: https://bulbapedia.bulbagarden.net/wiki/Main_Page  
 Readme Image Credit: https://funnyjunk.com/channel/pokemon/Thatd+ing+piss+me+off/lzpYMym/ 
+<a target="_blank" href="https://icons8.com/icon/118497/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/32323/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 All images used are recreations made for educational purposes only. The images are copyrighted or is a registered trademark. The contributor claims fair use. No copyright infringement is intended.  
 
