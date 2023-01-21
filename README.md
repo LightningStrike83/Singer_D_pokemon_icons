@@ -29,6 +29,7 @@ Reference of sprites from: https://bulbapedia.bulbagarden.net/wiki/Main_Page
 Readme Image Credit: https://funnyjunk.com/channel/pokemon/Thatd+ing+piss+me+off/lzpYMym/ 
 <a target="_blank" href="https://icons8.com/icon/118497/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/32323/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/13963/twitter">Twitter</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 All images used are recreations made for educational purposes only. The images are copyrighted or is a registered trademark. The contributor claims fair use. No copyright infringement is intended.  
 
