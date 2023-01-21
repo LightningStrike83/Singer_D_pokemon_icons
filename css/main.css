@@ -36,13 +36,15 @@ p {
     padding-right: 5px;
 }
 
-img, svg {
+img, svg, object {
     height: 100px;
 }
 
 h2 {
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 .hidden {
@@ -69,6 +71,12 @@ h2 {
     padding-right: 20px;
 }
 
+.desc {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #main_nav, #footer_nav {
     display: grid;
 }
@@ -88,7 +96,7 @@ h2 {
 #container {
     width: 1200px;
     margin: 0 auto;
-    border: 1px black solid;
+    display: sticky;
 }
 
 #mudkip:hover {
@@ -167,3 +175,28 @@ h2 {
     display: inline-block;
     text-align: center;
 }
+
+#items h2 {
+    margin-top: 35px;
+}
+
+#Pokeball:hover #lightred_poke, #Pokeball:hover #red_poke, #Pokeball:hover #darkred_poke {filter: invert(1);}
+
+#Dive_Ball:hover #darkblue_dive, #Dive_Ball:hover #blue_dive, #Dive_Ball:hover #lightblue_dive {filter: invert(1);}
+
+#Dream_Ball:hover #lavendar_dream, #Dream_Ball:hover #purple_dream, #Dream_Ball:hover #lightpink_dream, #Dream_Ball:hover #pink_dream, #Dream_Ball:hover #darkpink_dream, #Dream_Ball:hover #rose_dream {filter: invert(1);}
+
+#Dusk_Ball:hover #green_dusk, #Dusk_Ball:hover #darkgreen_dusk, #Dusk_Ball:hover #grey_dusk, #Dusk_Ball:hover #darkgray_dusk {filter: invert(1);}
+
+#Friend_Ball:hover #olive_friend, #Friend_Ball:hover #green_friend, #Friend_Ball:hover #darkgreen_friend, #Friend_Ball:hover #yellow_friend, #Friend_Ball:hover #red_friend{filter: invert(1);}
+
+#Great_Ball:hover #blue_great, #Great_Ball:hover #lightblue_great, #Great_Ball:hover #darkblue_great,  #Great_Ball:hover #lightred_great, #Great_Ball:hover #red_great, #Great_Ball:hover #darkred_great{filter: invert(1);}
+
+#Master_Ball:hover #lavendar_master, #Master_Ball:hover #purple_master, #Master_Ball:hover #darkpurple_master, #Master_Ball:hover #lightred_master, #Master_Ball:hover #red_master, #Master_Ball:hover #darkred_master {filter: invert(1);}
+
+#Premier_Ball:hover #grey_premier, #Premier_Ball:hover #white_premier, #Premier_Ball:hover #eggwhite_premier {filter: invert(1);}
+
+#Quick_Ball:hover #lightblue_quick, #Quick_Ball:hover #blue_quick, #Quick_Ball:hover #darkblue_quick, #Quick_Ball:hover #yellow_quick, #Quick_Ball:hover #gold_quick {filter: invert(1);}
+
+#Ultra_Ball:hover #lightyellow_ultra, #Ultra_Ball:hover #yellow_ultra, #Ultra_Ball:hover #gold_ultra, #Ultra_Ball:hover #tan_ultra
+{filter: invert(1);}
