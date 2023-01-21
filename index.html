@@ -11,21 +11,26 @@
     <h1 class="hidden">Lightning's Pokemon Pixel Art Gallery</h1>
     <div id="container">
     <header>
-        <nav id="main_nav">
+        <nav id="main_nav" class="grid">
             <h2 class="hidden">Top Nav</h2>
-            <ul class="grid">
+            <ul id="links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Icon Gallery</a></li>
                 <li><a href="#">Commission Info</a></li>
                 <li><a href="#">Contact</a></li>
+            </ul>
+
+            <ul id="social_media">
+                <li><a href="#"><img class="logos" src="images/facebook_logo.svg" alt="Facebook Logo"></a></li>
+                <li><a href="#"><img class="logos" src="images/instagram_logo.svg" alt="Instagram Logo"></a></li>
             </ul>
         </nav>
     </header>
 
     <section id="pokemon">
         <h2>Pokemon</h2>
+            <h3 class="hidden">Row 1 Pokemon</h3>
             <ul id="row1" class="grid">
-                
                 <li id="mudkip_info">
                     <svg id="Mudkip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 179.49 160.6">
                         <defs>
@@ -65,6 +70,7 @@
                     <div class="bumper"></div>
                     <p><b>Mudkip</b></p>
                     <p class="desc">One of three starter Pokemon from the Hoenn region.</p>
+                    <p class="desc">Mud! Kip!</p>
                 </li>
                 <li id="ralts_info">
                     <svg id="Ralts" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.36 179.49">
@@ -217,6 +223,7 @@
                     <div class="bumper"></div>
                     <p><b>Pokeball</b></p>
                     <p class="desc">A standard Pokeball, sold for 200P.</p>
+                    <p class="desc">... Or you can just find them on the ground. Beware of Voltorbs!</p>
                 </li>
                 <li id="greatball_info">
                     <svg id="Great_Ball" data-name="Great Ball" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 141.7">
@@ -272,6 +279,7 @@
                     <div class="bumper"></div>
                     <p><b>Great Ball</b></p>
                     <p class="desc">1.5x greater catch rate than the standard Pokeball.</p>
+                    <p class="desc">Also can be found on the ground. Beware of Shiny Voltorbs! Wait, that's a good thing.</p>
                 </li>
                 <li id="ultraball_info">
                     <svg id="Ultra_Ball" data-name="Ultra Ball" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 141.7">
@@ -322,6 +330,7 @@
                     <div class="bumper"></div>
                     <p><b>Ultra Ball</b></p>
                     <p class="desc">2x greater catch rate than the standard Pokeball.</p>
+                    <p class="desc">This is what it means to go further beyond. Plus Ultra!</p>
                 </li>
                 <li id="premierball_info">
                     <svg id="Premier_Ball" data-name="Premier Ball" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 141.7">
@@ -362,6 +371,7 @@
                     <div class="bumper"></div>
                     <p><b>Premier Ball</b></p>
                     <p class="desc">A bonus for buying 10 or more Pokeballs all at once.</p>
+                    <p class="desc">Also used as a ploy for math teachers to trick you.</p>
                 </li>
             </ul>
         </section>
@@ -422,6 +432,7 @@
                     <div class="bumper"></div>
                     <p><b>Master Ball</b></p>
                     <p class="desc">The only model of Pokeball with a 100% catch rate.</p>
+                    <p class="desc">Please don't use it on a Magikarp. At least on a Bidoof.</p>
                 </li>
                 <li id="duskball_info">
                     <svg id="Dusk_Ball" data-name="Dusk Ball" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 141.7">
@@ -477,6 +488,7 @@
                     <div class="bumper"></div>
                     <p><b>Dusk Ball</b></p>
                     <p class="desc">A specialized Pokeball with a 4x catch rate during the night or in a cave.</p>
+                    <p class="desc">Catch those spooky scary Pokemons!</p>
                 </li>
                 <li id="quickball_info">
                     <svg id="Quick_Ball" data-name="Quick Ball" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 141.7">
@@ -527,6 +539,7 @@
                     <div class="bumper"></div>
                     <p><b>Quick Ball</b></p>
                     <p class="desc">A specialized Pokeball with a 4x catch rate when thrown on the first turn only.</p>
+                    <p class="desc">The Pokemon will never see it coming!</p>
                 </li>
                 <li id="diveball_info">
                     <svg id="Dive_Ball" data-name="Dive Ball" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 141.7">
@@ -567,6 +580,7 @@
                     <div class="bumper"></div>
                     <p><b>Dive Ball</b></p>
                     <p class="desc">A specialized Pokeball with a 4x catch rate for Pokemon encountered when surfing, diving, or fishing.</p>
+                    <p class="desc">Yes, this does include a surfing Tauros if you find one.</p>
                 </li>
             </ul>
         </section>
@@ -622,6 +636,7 @@
                     <div class="bumper"></div>
                     <p><b>Friend Ball</b></p>
                     <p class="desc">A special Pokeball made from apricorns; Pokemon caught in this ball have their base happiness increased.</p>
+                    <p class="desc">That Buneary that hates you suddenly loves you now!</p>
                 </li>
                 <li id="dreamball_info">
                     <svg id="Dream_Ball" data-name="Dream Ball" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 141.7">
@@ -683,13 +698,18 @@
     </section>
 
     <footer>
-        <nav id="bottom_nav">
+        <nav id="bottom_nav" class="grid">
             <h2 class="hidden">Bottom Nav</h2>
-            <ul class="grid">
+            <ul id="bottom_links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Icon Gallery</a></li>
                 <li><a href="#">Commission Info</a></li>
                 <li><a href="#">Contact</a></li>
+            </ul>
+
+            <ul id="social_media_bottom">
+                <li><a href="#"><img class="logos" src="images/facebook_logo.svg" alt="Facebook Logo"></a></li>
+                <li><a href="#"><img class="logos" src="images/instagram_logo.svg" alt="Instagram Logo"></a></li>
             </ul>
         </nav>
     </footer>
