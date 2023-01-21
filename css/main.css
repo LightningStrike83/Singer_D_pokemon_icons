@@ -109,7 +109,7 @@ h2 {
 }
 
 #main_nav #links {
-    grid-column: 1/3;
+    grid-column: 2/4;
 }
 
 #main_nav ul li {
@@ -121,6 +121,12 @@ h2 {
     grid-column: 4/-1;
     margin: 0;
     padding-top: 7.5px;
+}
+
+#Logo {
+    grid-column: 1/2;
+    height: 50px;
+    padding-left: 40px;
 }
 
 #social_media ul li {
@@ -174,6 +180,12 @@ h2 {
 
 #bottom_nav ul li {
     padding-bottom: 10px;
+}
+
+#Logo-Bottom {
+    grid-column: 3/4;
+    padding-top: 30px;
+    height: 80px;
 }
 
 #bottom_nav #social_media_bottom {
