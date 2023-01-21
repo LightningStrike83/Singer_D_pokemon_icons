@@ -123,6 +123,10 @@ h2 {
     padding-top: 7.5px;
 }
 
+#main_nav #social_media li {
+    padding-left: 15px;
+}
+
 #Logo {
     grid-column: 1/2;
     height: 50px;
@@ -184,7 +188,7 @@ h2 {
 
 #Logo-Bottom {
     grid-column: 3/4;
-    padding-top: 30px;
+    padding-top: 25px;
     height: 80px;
 }
 
@@ -196,7 +200,7 @@ h2 {
 
 #social_media_bottom li {
     display: inline;
-    padding-left: 40px;
+    padding-left: 15px;
 }
 
 #mudkip_info, #pokeball_info, #masterball_info {
