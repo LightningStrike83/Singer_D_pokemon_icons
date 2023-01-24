@@ -219,6 +219,10 @@ h2 {
     grid-column: 4/-1;
 }
 
+#Logo:hover #yellow-logo, #Logo-Bottom:hover #yellow-logo {
+    filter: grayscale(1);
+} 
+
 #Mudkip:hover #lightblue_mudkip {
     fill: #fff6cd;
 }
@@ -299,3 +303,12 @@ h2 {
 
 #Ultra_Ball:hover #lightyellow_ultra, #Ultra_Ball:hover #yellow_ultra, #Ultra_Ball:hover #gold_ultra, #Ultra_Ball:hover #tan_ultra
 {filter: invert(1);}
+
+#black_poke, #black_great, #black_ultra, #black_premier, #black_dusk, #black_master, #black_quick, #black_dive, #black_friend, #black_dream {
+    transition: all 1s ease; 
+    transform-origin: 50%;
+}
+
+#Pokeball:hover #black_poke, #Great_Ball:hover #black_great, #Ultra_Ball:hover #black_ultra, #Premier_Ball:hover #black_premier, #Master_Ball:hover #black_master, #Dusk_Ball:hover #black_dusk, #Quick_Ball:hover #black_quick, #Dive_Ball:hover #black_dive, #Friend_Ball:hover #black_friend, #Dream_Ball:hover #black_dream  {
+    transform: rotate(360deg);
+}
